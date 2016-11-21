@@ -22,7 +22,8 @@
         <activity android:name=".kalimantan" />
         <activity android:name=".papua" />
         <activity android:name=".sumatra" />
-        <activity android:name=".sulawesi"></activity>
+        <activity android:name=".sulawesi" />
+        <activity android:name=".RapiPage"></activity>
     </application>
 
 </manifest>

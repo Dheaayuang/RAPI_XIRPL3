@@ -1,10 +1,9 @@
 package id.sch.smktelkom_mlg.project.xirpl307162534.rapi;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     ImageButton btpapua;
     ImageButton btsulawesi;
     ImageButton btsumatra;
+    ImageButton btnrapi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,11 +26,54 @@ public class MainActivity extends AppCompatActivity {
         btpapua = (ImageButton) findViewById(R.id.btnPapua);
         btsulawesi = (ImageButton) findViewById(R.id.btnSulawesi);
         btsumatra = (ImageButton) findViewById(R.id.btnSumatera);
+        btnrapi = (ImageButton) findViewById(R.id.btnRapi);
 
         btbali.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, bali.class));
+            }
+        });
+
+        btjawa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, jawa.class));
+            }
+        });
+
+        btkalimantan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, kalimantan.class));
+            }
+        });
+
+        btpapua.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, papua.class));
+            }
+        });
+
+        btsulawesi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, sulawesi.class));
+            }
+        });
+
+        btsumatra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, sumatra.class));
+            }
+        });
+
+        btnrapi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, RapiPage.class));
             }
         });
     }

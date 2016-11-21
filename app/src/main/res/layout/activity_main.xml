@@ -2,80 +2,80 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     >
 <RelativeLayout
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_height="wrap_content"
     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/peta"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@mipmap/peta"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl307162534.rapi.MainActivity"
-    android:weightSum="1">
+    android:weightSum="1"
+    tools:context="id.sch.smktelkom_mlg.project.xirpl307162534.rapi.MainActivity">
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/papua"
         android:id="@+id/btnPapua"
-        android:layout_below="@+id/imageButton19"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/sulawesi"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnRapi"
+        app:srcCompat="@mipmap/papua" />
+
+    <ImageButton
         android:id="@+id/btnSulawesi"
-        android:layout_alignTop="@+id/btnJawa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignTop="@+id/btnJawa"
+        app:srcCompat="@mipmap/sulawesi" />
 
     <ImageButton
+        android:id="@+id/btnRapi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/logo"
-        android:id="@+id/imageButton19"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/logo" />
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/sumatera"
         android:id="@+id/btnSumatera"
-        android:layout_below="@+id/imageButton19"
-        android:layout_centerHorizontal="true" />
-
-    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/jawa"
+        android:layout_below="@+id/btnRapi"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/sumatera" />
+
+    <ImageButton
         android:id="@+id/btnJawa"
-        android:layout_below="@+id/btnBali"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/bali"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnBali"
+        app:srcCompat="@mipmap/jawa" />
+
+    <ImageButton
         android:id="@+id/btnBali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_above="@+id/btnKalimantan"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        app:srcCompat="@mipmap/bali" />
 
     <ImageButton
+        android:id="@+id/btnKalimantan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/kalimantan"
-        android:id="@+id/btnKalimantan"
         android:layout_below="@+id/btnSumatera"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/kalimantan" />
 
 </RelativeLayout>
 </ScrollView>
