@@ -17,13 +17,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".bali" />
-        <activity android:name=".jawa" />
-        <activity android:name=".kalimantan" />
-        <activity android:name=".papua" />
-        <activity android:name=".sumatra" />
-        <activity android:name=".sulawesi" />
-        <activity android:name=".RapiPage"></activity>
+
+        <activity
+            android:name=".bali"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".jawa"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".kalimantan"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".papua"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".sumatra"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".sulawesi"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".RapiPage"
+            android:screenOrientation="landscape"
+
+            ></activity>
     </application>
 
 </manifest>
