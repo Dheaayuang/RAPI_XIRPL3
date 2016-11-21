@@ -24,6 +24,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/btnRapi"
+        android:paddingTop="30dp"
+        android:background="#00000000"
         app:srcCompat="@mipmap/papua" />
 
     <ImageButton
@@ -33,6 +35,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/btnJawa"
+        android:paddingTop="20dp"
+        android:background="#00000000"
         app:srcCompat="@mipmap/sulawesi" />
 
     <ImageButton
@@ -41,7 +45,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        app:srcCompat="@mipmap/logo" />
+        android:paddingTop="20dp"
+        android:background="#00000000"
+        app:srcCompat="@mipmap/icon" />
 
     <ImageButton
         android:id="@+id/btnSumatera"
@@ -49,6 +55,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnRapi"
         android:layout_centerHorizontal="true"
+        android:paddingTop="30dp"
+        android:background="#00000000"
         app:srcCompat="@mipmap/sumatera" />
 
     <ImageButton
@@ -58,6 +66,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/btnBali"
+        android:paddingTop="20dp"
+        android:background="#00000000"
         app:srcCompat="@mipmap/jawa" />
 
     <ImageButton
@@ -67,6 +77,8 @@
         android:layout_above="@+id/btnKalimantan"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:paddingTop="20dp"
+        android:background="#00000000"
         app:srcCompat="@mipmap/bali" />
 
     <ImageButton
@@ -75,6 +87,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnSumatera"
         android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:background="#00000000"
         app:srcCompat="@mipmap/kalimantan" />
 
 </RelativeLayout>
