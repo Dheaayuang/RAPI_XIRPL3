@@ -1,10 +1,14 @@
 package id.sch.smktelkom_mlg.project.xirpl307162534.rapi;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+
+import com.google.android.gms.appindexing.AppIndex;
 
 public class bali extends AppCompatActivity {
 
@@ -24,4 +28,6 @@ public class bali extends AppCompatActivity {
             }
         });
     }
+
+
 }
