@@ -17,40 +17,37 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".bali"
             android:screenOrientation="landscape" />
-
         <activity
             android:name=".jawa"
             android:screenOrientation="landscape" />
-
         <activity
             android:name=".kalimantan"
             android:screenOrientation="landscape" />
-
         <activity
             android:name=".papua"
             android:screenOrientation="landscape" />
-
         <activity
             android:name=".sumatra"
             android:screenOrientation="landscape" />
-
         <activity
             android:name=".sulawesi"
             android:screenOrientation="landscape" />
-
         <activity
             android:name=".RapiPage"
-            android:screenOrientation="landscape"
-
-            ></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+            android:screenOrientation="landscape" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".rumah_bali" />
+        <activity android:name=".rumah_jawa"></activity>
     </application>
 
 </manifest>
