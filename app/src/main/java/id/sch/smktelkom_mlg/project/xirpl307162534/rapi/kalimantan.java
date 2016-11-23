@@ -13,7 +13,7 @@ public class kalimantan extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bali);
+        setContentView(R.layout.activity_kalimantan);
 
         btnBack = (ImageButton) findViewById(R.id.btnBack);
 
@@ -21,6 +21,20 @@ public class kalimantan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(kalimantan.this, MainActivity.class));
+            }
+        });
+
+        findViewById(R.id.btnRumahKalimantan).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(kalimantan.this, rumah_kalimantan.class));
+            }
+        });
+
+        findViewById(R.id.btnBajuKalimantan).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(kalimantan.this, baju_kalimantan.class));
             }
         });
 }}

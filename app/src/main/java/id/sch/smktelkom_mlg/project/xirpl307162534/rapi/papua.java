@@ -13,7 +13,7 @@ public class papua extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bali);
+        setContentView(R.layout.activity_papua);
 
         btnBack = (ImageButton) findViewById(R.id.btnBack);
 

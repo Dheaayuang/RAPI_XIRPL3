@@ -9,13 +9,17 @@ import android.widget.ImageButton;
 public class jawa extends AppCompatActivity {
 
     ImageButton btnBack;
+    ImageButton btnRumahJawa;
+    ImageButton btnBajuJawa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bali);
+        setContentView(R.layout.activity_jawa);
 
         btnBack = (ImageButton) findViewById(R.id.btnBack);
+        btnRumahJawa = (ImageButton) findViewById(R.id.btnRumahJawa);
+        btnBajuJawa = (ImageButton) findViewById(R.id.btnBajuJawa);
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,5 +27,26 @@ public class jawa extends AppCompatActivity {
                 startActivity(new Intent(jawa.this, MainActivity.class));
             }
         });
-}
+
+        btnRumahJawa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(jawa.this, rumah_jawa.class));
+            }
+        });
+
+        btnBajuJawa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(jawa.this, baju_jawa.class));
+            }
+        });
+
+        findViewById(R.id.btnLaguJawa).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(jawa.this, lagu_jawa.class));
+            }
+        });
     }
+}

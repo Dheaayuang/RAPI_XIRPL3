@@ -107,6 +107,8 @@ public class MainActivity extends AppCompatActivity {
                 moveTaskToBack(true);
             }
         });
+
+
     }
 
     /**

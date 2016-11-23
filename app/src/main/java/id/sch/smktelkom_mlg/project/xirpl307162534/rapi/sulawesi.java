@@ -13,7 +13,7 @@ public class sulawesi extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bali);
+        setContentView(R.layout.activity_sulawesi);
 
         btnBack = (ImageButton) findViewById(R.id.btnBack);
 

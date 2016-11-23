@@ -47,7 +47,13 @@
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".rumah_bali" />
-        <activity android:name=".rumah_jawa"></activity>
+        <activity android:name=".rumah_jawa" />
+        <activity android:name=".baju_bali" />
+        <activity android:name=".baju_jawa" />
+        <activity android:name=".rumah_kalimantan" />
+        <activity android:name=".baju_kalimantan" />
+        <activity android:name=".lagu_bali" />
+        <activity android:name=".lagu_jawa"></activity>
     </application>
 
 </manifest>
