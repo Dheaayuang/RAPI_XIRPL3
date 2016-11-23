@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_bali"
@@ -23,5 +24,40 @@
         android:layout_marginRight="10dp"
         android:background="#00000000"
         android:id="@+id/btnBack" />
+
+    <ImageButton
+        android:id="@+id/btnRumahBali"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="35dp"
+        android:paddingTop="30dp"
+        android:background="#00000000"
+        app:srcCompat="@mipmap/rumahbali"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp" />
+
+    <ImageButton
+        android:id="@+id/btnBajuBali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:background="#00000000"
+        app:srcCompat="@mipmap/rumahbali"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/btnLaguBali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:background="#00000000"
+        app:srcCompat="@mipmap/btnlagu"
+        android:layout_alignTop="@+id/btnBajuBali"
+        android:layout_alignRight="@+id/btnBack"
+        android:layout_alignEnd="@+id/btnBack" />
+
 
 </RelativeLayout>
