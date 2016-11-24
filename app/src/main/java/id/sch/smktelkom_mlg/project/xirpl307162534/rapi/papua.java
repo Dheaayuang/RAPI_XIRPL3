@@ -23,5 +23,26 @@ public class papua extends AppCompatActivity {
                 startActivity(new Intent(papua.this, MainActivity.class));
             }
         });
+
+        findViewById(R.id.btnRumahPapua).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(papua.this, rumah_papua.class));
+            }
+        });
+
+        findViewById(R.id.btnBajuPapua).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(papua.this, baju_papua.class));
+            }
+        });
+
+        findViewById(R.id.btnLaguPapua).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(papua.this, lagu_papua.class));
+            }
+        });
     }
 }

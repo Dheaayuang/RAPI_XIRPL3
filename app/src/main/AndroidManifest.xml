@@ -81,6 +81,15 @@
             android:screenOrientation="landscape" />
         <activity
             android:name=".lagu_kalimantan"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".rumah_papua"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".baju_papua"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".lagu_papua"
             android:screenOrientation="landscape"></activity>
     </application>
 
