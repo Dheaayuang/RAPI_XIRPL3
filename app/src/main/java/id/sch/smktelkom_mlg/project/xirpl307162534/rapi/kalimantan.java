@@ -42,10 +42,4 @@ public class kalimantan extends AppCompatActivity {
                 startActivity(new Intent(kalimantan.this, baju_kalimantan.class));
             }
         });
-        findViewById(R.id.btnLaguKalimantan).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(kalimantan.this, lagu_kalimantan.class));
-            }
-        });
 }}
