@@ -21,10 +21,16 @@ public class bali extends AppCompatActivity {
         btnRumahBali = (ImageButton) findViewById(R.id.btnRumahBali);
         btnBajuBali = (ImageButton) findViewById(R.id.btnBajuBali);
 
-        btnBack.setOnClickListener(new View.OnClickListener() {
+        /*btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(bali.this, MainActivity.class));
+            }
+        });*/
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
             }
         });
 

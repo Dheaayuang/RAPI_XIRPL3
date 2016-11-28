@@ -24,8 +24,7 @@ public class sumatra extends AppCompatActivity {
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(sumatra.this, MainActivity.class));
-            }
+                onBackPressed();}
         });
 
         btnRumahSumatera.setOnClickListener(new View.OnClickListener() {

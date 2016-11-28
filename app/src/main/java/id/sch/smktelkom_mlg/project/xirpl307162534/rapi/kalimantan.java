@@ -25,8 +25,9 @@ public class kalimantan extends AppCompatActivity {
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(kalimantan.this, MainActivity.class));
-            }
+                /*startActivity(new Intent(kalimantan.this, MainActivity.class));
+        */
+            onBackPressed();}
         });
 
         findViewById(R.id.btnRumahKalimantan).setOnClickListener(new View.OnClickListener() {

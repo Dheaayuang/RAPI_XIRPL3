@@ -24,7 +24,9 @@ public class jawa extends AppCompatActivity {
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(jawa.this, MainActivity.class));
+                /*startActivity(new Intent(jawa.this, MainActivity.class));
+            */
+            onBackPressed();
             }
         });
 

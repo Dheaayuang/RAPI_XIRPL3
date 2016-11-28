@@ -1,6 +1,5 @@
 package id.sch.smktelkom_mlg.project.xirpl307162534.rapi;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -20,8 +19,9 @@ public class lagu_sumatera extends AppCompatActivity {
         buttonBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(lagu_sumatera.this, sumatra.class));
-            }
+                /*startActivity(new Intent(lagu_sumatera.this, sumatra.class));
+        */
+            onBackPressed();}
         });
     }
 }

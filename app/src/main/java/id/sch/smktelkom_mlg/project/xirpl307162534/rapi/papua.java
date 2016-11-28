@@ -20,8 +20,7 @@ public class papua extends AppCompatActivity {
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(papua.this, MainActivity.class));
-            }
+                onBackPressed();}
         });
 
         findViewById(R.id.btnRumahPapua).setOnClickListener(new View.OnClickListener() {
