@@ -8,7 +8,7 @@ import android.widget.ImageButton;
 
 public class kalimantan extends AppCompatActivity {
 
-    ImageButton btnBack;
+
     ImageButton btnRumahKalimantan;
     ImageButton btnBajuKalimantan;
 
@@ -18,16 +18,15 @@ public class kalimantan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kalimantan);
 
-        btnBack = (ImageButton) findViewById(R.id.btnBack);
+
         btnRumahKalimantan = (ImageButton) findViewById(R.id.btnRumahKalimantan);
         btnBajuKalimantan = (ImageButton) findViewById(R.id.btnBajuKalimantan);
 
-        btnBack.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btnBack).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*startActivity(new Intent(kalimantan.this, MainActivity.class));
-        */
-            onBackPressed();}
+                startActivity(new Intent(kalimantan.this, MainActivity.class));
+            }
         });
 
         findViewById(R.id.btnRumahKalimantan).setOnClickListener(new View.OnClickListener() {

@@ -8,19 +8,17 @@ import android.widget.ImageButton;
 
 public class papua extends AppCompatActivity {
 
-    ImageButton btnBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_papua);
 
-        btnBack = (ImageButton) findViewById(R.id.btnBack);
-
-        btnBack.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btnBack).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onBackPressed();}
+                startActivity(new Intent(papua.this, MainActivity.class));
+            }
         });
 
         findViewById(R.id.btnRumahPapua).setOnClickListener(new View.OnClickListener() {
