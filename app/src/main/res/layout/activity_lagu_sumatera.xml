@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_lagu_sumatera"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/lagusumatera"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -12,15 +14,50 @@
     tools:context="id.sch.smktelkom_mlg.project.xirpl307162534.rapi.lagu_sumatera">
 
     <ImageButton
+        android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/back"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="480dp"
         android:layout_marginTop="15dp"
-        android:layout_marginRight="10dp"
         android:background="#00000000"
-        android:id="@+id/btnBack" />
+        app:srcCompat="@mipmap/back" />
 
-</RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btnPLAY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@+id/btnPAUSE"
+        android:layout_toStartOf="@+id/btnPAUSE"
+        android:background="#00000000"
+        android:text="PLAY"
+        app:srcCompat="@mipmap/play" />
+
+    <ImageButton
+        android:id="@+id/btnSTOP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnPAUSE"
+        android:layout_below="@+id/btnPLAY"
+        android:layout_marginLeft="120dp"
+        android:layout_toEndOf="@+id/btnPAUSE"
+        android:layout_toRightOf="@+id/btnPAUSE"
+        android:background="#00000000"
+        android:text="STOP"
+        app:srcCompat="@mipmap/stop" />
+
+    <ImageButton
+        android:id="@+id/btnPAUSE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnPLAY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:background="#00000000"
+        android:text="PAUSE"
+        app:srcCompat="@mipmap/pause" />
+
+</LinearLayout>
